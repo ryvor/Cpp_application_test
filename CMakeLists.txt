@@ -8,6 +8,13 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(custom_title_app
     src/main.cpp
+    src/window_control.cpp
+    src/window_control.h
+    src/application.cpp
+    src/application.h
+    src/text_renderer.cpp
+    src/text_renderer.h
+    src/app_config.h
 )
 
 target_include_directories(custom_title_app PRIVATE src)
